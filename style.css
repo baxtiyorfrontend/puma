@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -52,6 +51,9 @@ img {
 .btn-black {
     background-color: black;
     color: white;
+}
+.btn-view {
+    display: none;
 }
 
 /* header */
@@ -338,7 +340,6 @@ header {
     background-position: center;
     padding-top: 130px;
     padding-bottom: 130px;
-
     margin-bottom: 180px;
 }
 .single__title {
@@ -358,6 +359,9 @@ header {
 /* Variety section */
 .variety {
     margin-bottom: 100px;
+}
+.variety__title {
+    display: none;
 }
 .variety__wrapper {
     display: flex;
@@ -407,6 +411,9 @@ header {
 }
 
 /* Footer section */
+.mobile-footer {
+    display: none;
+}
 footer {
     background-color: #fff;
     padding-top: 95px;
